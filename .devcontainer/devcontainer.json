@@ -1,7 +1,10 @@
 {
   "name": "demo_dev_container",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-    "python":"3.11"
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
   }
 }
+
